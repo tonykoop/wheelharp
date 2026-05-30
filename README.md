@@ -1,7 +1,7 @@
 <!-- SPDX-License-Identifier: CC-BY-4.0 -->
 # Wheelharp
 
-Status: L2 V5 build-packet candidate
+Status: L3-candidate V5 packet (deepened: protocols, tolerances, assembly, FMEA)...
 
 This repository is a V5 L2 build-packet candidate for a Wheelharp-style instrument: a
 semicircular keyboard where each key engages a string against a continuously
