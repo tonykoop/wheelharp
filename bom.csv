@@ -1,0 +1,16 @@
+item_id,subsystem,item,authority,source_status,notes
+frame,structure,frame and support structure,pending_measurement,concept_estimate,"Material, geometry, load path, and service access are unresolved."
+soundboard-or-pickup,acoustics,soundboard or pickup strategy,pending_measurement,concept_estimate,"Acoustic, amplified, or hybrid architecture remains open."
+wheel-bank,wheel-bank,rosined wheel bank,pending_measurement,concept_estimate,"Wheel count, material, edge profile, and replacement method are not specified."
+wheel-guards,wheel-bank,wheel guards and dust containment,pending_measurement,concept_estimate,"Guarding is required before powered tests; shape and access are unresolved."
+drive-motor,drive,motor or motor set,pending_measurement,concept_estimate,"No speed, torque, power, voltage, or current values are claimed."
+drive-transmission,drive,belt gear or pulley transmission,pending_measurement,concept_estimate,"Shared-drive versus individual-drive architecture is undecided."
+controller,drive,motor controller and switchgear,pending_measurement,concept_estimate,"Electrical design and safety review are future work."
+keyboard,keyboard,semicircular keyboard,pending_measurement,concept_estimate,"Key count, spacing, travel, and ergonomics are unspecified."
+engagement-linkages,keyboard,key-to-string engagement linkages,pending_measurement,concept_estimate,"Final mechanism could lift strings, move wheels, or actuate pressure shoes."
+strings,stringing,bowed strings,pending_measurement,concept_estimate,"No pitch, gauge, material, length, or tension is specified."
+dampers,stringing,string dampers,pending_measurement,concept_estimate,"Idle and release damping are required concept functions."
+rosin,setup,wheel rosin,concept_only,concept_estimate,"Consumable setup material; exact product and application method are unspecified."
+setup-log,validation,wheel and engagement setup log,concept_only,planned,"Future log for truing, rosin, contact, damping, noise, and response tests."
+service-tools,maintenance,truing and cleaning tools,pending_measurement,concept_estimate,"Tooling is pending after wheel material and access decisions."
+
