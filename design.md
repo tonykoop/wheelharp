@@ -39,6 +39,10 @@ wheel-service paths must not fight for the same space.
   replacement method are pending measurement.
 - Shared-drive and individual-drive architectures are both open.
 - The wheel bank needs guards for fingers, hair, loose clothing, and rosin dust.
+- L2 evidence target: a one-wheel coupon with recorded edge material, truing
+  method, rosin behavior, noise observations, and service access notes.
+- Authority boundary: no wheel count, wheel diameter, axle size, bearing type,
+  or spacing is released for fabrication.
 
 ### Motor Drive
 
@@ -48,6 +52,11 @@ wheel-service paths must not fight for the same space.
 - Electrical isolation and service access should be designed before any powered
   prototype is built.
 - No motor speed, torque, current, voltage, or power values are claimed here.
+- L2 evidence target: a drive architecture decision comparing shared shaft,
+  belt train, and modular motor approaches by safety, noise, serviceability,
+  and controllability.
+- Authority boundary: powered design remains pending electrical and pinch-point
+  review.
 
 ### Key-To-String Engagement
 
@@ -58,6 +67,10 @@ wheel-service paths must not fight for the same space.
   playable key does not automatically imply excessive bow force.
 - Key return, bounce, lost motion, and quiet operation are first prototype
   questions.
+- L2 evidence target: one removable key-action mule that can test string lift,
+  contact shoe, and damper sequencing without committing the whole keyboard.
+- Authority boundary: key spacing, lever ratios, pivot positions, and spring
+  forces are pending measurement.
 
 ### Strings And Damping
 
@@ -67,6 +80,10 @@ wheel-service paths must not fight for the same space.
   and damping hardware.
 - A future test rig should measure attack, release, squeal, chatter, and
   unwanted sympathetic response.
+- L2 evidence target: a string/damper test log that records whether release is
+  clean before any keyboard layout is scaled up.
+- Authority boundary: no tuning table, string scale, gauge, tension, or damper
+  material is released.
 
 ### Frame, Soundboard, And Resonance
 
@@ -75,6 +92,11 @@ wheel-service paths must not fight for the same space.
 - Soundboard or pickup strategy is intentionally unresolved.
 - A purely acoustic body, hybrid amplified body, or mostly electric pickup
   architecture are all still concept options.
+- L2 evidence target: a structural interface map that separates wheel-bank
+  support, string load path, keyboard mounts, service openings, and acoustic or
+  pickup provisions.
+- Authority boundary: frame stock, body dimensions, bracing, and resonance
+  targets remain pending measurement.
 
 ### Maintenance And Setup
 
@@ -83,6 +105,8 @@ wheel-service paths must not fight for the same space.
 - Rosin dust and motor debris need containment and cleaning paths.
 - A setup log should track wheel condition, string wrapping or surface prep,
   engagement feel, noise, and response.
+- L2 evidence target: a service checklist covering wheel replacement, rosin
+  cleanup, string replacement, damper adjustment, and guard removal.
 
 ## Parametric Intent
 
@@ -113,9 +137,20 @@ targets.
 - Safety: review guarding, electrical isolation, heat, and pinch points before
   powered multi-wheel tests.
 
-## L1 Boundary
+## L2 Packet Gates
 
-This design study is a concept map. It does not define a scale, tuning system,
+| Gate | Current authority | Promotion evidence |
+| --- | --- | --- |
+| Wheel coupon | pending_measurement | One-wheel test with material, edge condition, rosin, noise, and wear notes. |
+| Key-action mule | pending_measurement | Bench linkage that proves note-on contact and note-off damping sequence. |
+| String setup | pending_measurement | Measured response log with attack, release, squeal, chatter, and sustain observations. |
+| Drive safety | pending_measurement | Electrical, guarding, heat, pinch-point, and service-access review. |
+| Frame interfaces | pending_measurement | Reviewed layout separating wheel bank, string path, key action, damping, and maintenance access. |
+| CAD/drawings | pending_measurement | Reviewed CAD, DXF, or drawing authority after measured parameters exist. |
+
+## L2 Boundary
+
+This design study is a build-packet candidate. It names subsystems, gates, and
+planned fabrication classes, but it does not define a scale, tuning system,
 wheel size, motor specification, CAD model, DXF, string schedule, or fabrication
 release.
-
