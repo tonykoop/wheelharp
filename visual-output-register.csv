@@ -7,3 +7,5 @@ decision-record,decision-record.md,measurement_template,story,concept_only,desig
 mcp-session-log,cad/mcp-session-log.md,measurement_template,build_log,concept_only,,none,false,"Records QMD Step 0 failure and absence of MCP/CAD authoring."
 future-wheel-coupon,cad/wheel-coupon.scad,cad,planned_coupon,pending_measurement,design.md,planned_missing_artifact,false,"Future CAD only after measured or reviewed wheel and fixture parameters exist."
 future-cad,cad/,cad,concept,pending_measurement,design.md,planned_missing_artifact,false,"Reserved for future CAD after measured or reviewed parameters exist; no CAD geometry is present."
+WL-STARTER,wheelharp-starter.wl,design_table,design_table,reference_only,,none,false,"Wolfram source entry point authored by hand; computes no fabrication dimensions."
+WL-MODEL,wolfram/wheelharp-wolfram-model.wl,design_table,design_table,reference_only,wheelharp-starter.wl,none,false,"Wolfram 14.3 parametric acoustic/contact model; all physical inputs are estimate placeholders pending measurement."
