@@ -1,0 +1,10 @@
+<!-- measurement gates; acceptance bases qualitative until a rubric + measured targets exist; pending_measurement -->
+gate_id,subsystem,measurement,acceptance_basis,authority,status,notes
+VAL-001,wheel-bank,one-wheel coupon (truth + rosin contact),wheel runs true; stable string contact,pending_measurement,gate_open,"Measured one-wheel behavior before wheel_count; parametric-design-table.md."
+VAL-002,wheel-bank,wheel spacing,max(service access, guard, adjacent contact margin),pending_measurement,gate_open,"wheel_spacing; no clearance value released."
+VAL-003,key_action,key-to-string engagement path,one string contacts its assigned wheel cleanly,pending_measurement,gate_open,"string_contact_path = f(key motion, linkage, wheel edge); one-string fixture."
+VAL-004,stringing,idle damping,no note smear across keyboard when idle,pending_measurement,gate_open,"damper_position = f(note-off target, string path, service)."
+VAL-005,drive,drive architecture (noise/heat/recovery),acceptable noise, heat, speed recovery,pending_measurement,gate_open,"drive_architecture choice; logs required."
+VAL-006,safety,guard envelope,moving parts guarded; hand clearance; dust path,pending_measurement,gate_open,"guard_envelope; safety review before powered testing."
+VAL-007,structure,frame reference / alignment,wheel/string/keyboard alignment holds after service,pending_measurement,gate_open,"frame_reference; witness marks + repeated service checks."
+VAL-008,maintenance,rosin service + cleanout,tone stable; dust contained,pending_measurement,gate_open,"rosin_service_interval; dust/cleaning logs."

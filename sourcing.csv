@@ -1,0 +1,10 @@
+<!-- spec-first sourcing; no released dimensions, no verified prices; pending_measurement -->
+item_id,subsystem,spec_basis,candidate_source_class,authority,status,notes
+SRC-FRAME,structure,frame + support structure stock,structural timber/metal supplier,pending_measurement,spec_pending,"frame_reference pending alignment witness marks; no geometry."
+SRC-WHEELBANK,wheel-bank,rosined wheel bank blanks + edge surface,turned-wood/luthier supply,pending_measurement,spec_pending,"wheel_count/diameter/edge profile pending one-wheel coupon."
+SRC-AXLES,wheel-bank,axles, bearings/bushings,bearing supplier,pending_measurement,spec_pending,"Support method pending coupon + service review."
+SRC-GUARDS,wheel-bank,wheel guards + rosin-dust containment,shop stock/fabrication,pending_measurement,spec_pending,"guard_envelope required before powered tests; shape unresolved."
+SRC-DRIVE,drive,motor(s) + transmission,motor/drive supplier,pending_measurement,spec_pending,"drive_architecture (shared/grouped/individual) pending noise/heat logs; no speed/torque."
+SRC-KEYS,keyboard,semicircular keybed + key/linkage stock,luthier/fabrication,pending_measurement,spec_pending,"key_count, spacing, routing pending ergonomic mockup."
+SRC-STRINGS,stringing,strings + dampers + engagement shoes,string supply,pending_measurement,spec_pending,"string_count, gauge, tuning, damper travel pending."
+SRC-ACOUSTIC,acoustics,soundboard or pickup system,tonewood/electronics supply,pending_measurement,spec_pending,"Acoustic/amplified/hybrid architecture open."
